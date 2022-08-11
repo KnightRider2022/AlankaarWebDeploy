@@ -1,1 +1,2 @@
-# AlankaarWebDeploy
+# Alankar-Web
+# AlankaarDjango
