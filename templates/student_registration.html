@@ -4,16 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
-    <link rel="icon" type="image/x-icon" href="../Logo.png">
+    <link rel="stylesheet" href="student.css" />
+    <link rel="icon" type="image/x-icon" href="Logo.png" width="64" height="64">
     <title>Onboarding Student page</title>
   </head>
   <body>
     <div class="element">
       <div class="lefthalf">
-        <img id="logo1" src="../AlankaarLogo.png" alt="AlankarLogo" />
+        <img id="logo1" src="AlankaarLogo.png" alt="AlankarLogo" />
         <div class="footer1">
-          <h4>Not a Student? <a class="sign-up" href="{% url 'volunteer_reg' %}">Volunteer Registration</a></h4>
+          <h4>Not a Student? <a class="sign-up" href="volunteer.html">Volunteer Registration</a></h4>
         </div>
 
         <div class="contact">
@@ -25,7 +25,7 @@
 
       <!-- 2nd half -->
       <div class="righthalf">
-
+        
         <h1 class="margin">Student Registration Form</h1>
         <h3>Please fill the details below</h3>
         <div class="login-form margin">
@@ -51,18 +51,18 @@
             <input type="Number" placeholder="Student's Aadhar Number" />
 
             <input type="Number" placeholder="Contact Number" />
-
+          
             <input
-
+            
             id="mydate"
             name="date"
             placeholder="Date of Birth(dd/mm/yyyy)"
 
           class="textbox-n" type="text" onfocus="(this.type='date')"
           />
-
+        
             <input type="Address" placeholder="Address" />
-
+ 
             <input
             id="mydate"
             name="date"
@@ -93,12 +93,12 @@
 
           <div class="overlap ">
             <div class="image1 poppins valign-text-middle">
-              <a href="{% url 'student_reg_2' %}">Next</a>
+              <a href="student2.html">Next</a>
             </div>
           </div>
         </div>
 
-
+        
       </div>
     </div>
   </body>
